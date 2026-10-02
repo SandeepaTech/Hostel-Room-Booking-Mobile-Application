@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "HostelHub",
+    "slug": "hostelhub",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1B4B"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1E1B4B"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.danuka16512.hostelhub"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "HostelHub needs access to your photos to upload room images."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2ed37be0-b57c-469c-aee4-7126bd417209"
+      }
+    }
+  }
+}
